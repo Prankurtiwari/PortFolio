@@ -1,0 +1,18 @@
+//Variables
+
+$website-width: 1100px;
+$main-color: #0dadec57;
+$light-color: #f8f8f8;
+$medium-color: rgb(194, 167, 167);
+$dark-color: rgba(165, 22, 129, 0.199);
+$tech-color: rgba(0, 0, 0, 0.842);
+$bg-image: url("../resources/Showcase3.jpg");
+
+//Set Text Color
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #0000;
+  } @else {
+    @return #ffff;
+  }
+}

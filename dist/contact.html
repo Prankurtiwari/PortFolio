@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/db53366089.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contact Me|Developer</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <a href="index.html">
+            <img src="resources/Logo.png" ant="My-Port" id="logo" />
+            <!-- <h1>& Prankur.Tiwari</h1> -->
+          </a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html" class="current">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Section A: Contact Form -->
+    <section id="contact-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Here is how you can reach me</p>
+        <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+          <div class="text-fields">
+            <input
+              type="text"
+              class="text-input name-input"
+              placeholder="Name"
+              name="name"
+            />
+            <input
+              type="text"
+              class="text-input subject-input"
+              placeholder="Subject"
+              name="subject"
+            />
+            <input
+              type="email"
+              class="text-input email-input"
+              placeholder="Email Address"
+              name="email"
+            />
+            <input
+              type="text"
+              class="text-input phone-input"
+              placeholder="Phone Number"
+              name="phone"
+            />
+            <textarea
+              class="text-input message-input"
+              placeholder="Enter Message"
+              name="message"
+            ></textarea>
+            <div class="my-2">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+          </div>
+          <button type="submit" class="btn-submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Section B: Contact Info -->
+    <section id="contact-b" class="py-3 bg-tech">
+      <div class="container">
+        <div class="contact-info">
+          <div>
+            <i class="fas fa-envelope fa-2x"></i>
+            <h3>Email</h3>
+            <a href="mailto:prankurtiwari1997@gmail.com" style="color: #fff;"
+              ><p>prankurtiwari1997@gmail.com</p></a
+            >
+            <a href="mailto:tiwariprankur61@gmail.com" style="color: #fff;"
+              ><p>tiwariprankur61@gmail.com</p></a
+            >
+          </div>
+          <div>
+            <i class="fas fa-phone fa-2x"></i>
+            <h3>Phone</h3>
+
+            <a href="tel:9891364555" style="color: #fff;"
+              ><p>+91-9891364555</p></a
+            >
+            <p>+91-7275321070 (Whatsapp)</p>
+          </div>
+          <div>
+            <i class="fas fa-address-card fa-2x"></i>
+            <h3>Address</h3>
+            <p>CDAC Noida Sector-62 <br />Noida Uttar Pradesh,201307</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>&copy; Crafted and HandCoded by Prankur Tiwari | 2020</p>
+        <div class="social">
+          <a href="https://github.com/Prankurtiwari" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/prankur-t-76666496/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://stackoverflow.com/users/13511919/prankur-tiwari"
+            target="_blank"
+          >
+            <i class="fab fa-stack-overflow"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

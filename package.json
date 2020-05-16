@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Prankur Tiwari's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prankurtiwari/Portfolio.git"
+  },
+  "keywords": [
+    "Portfolio",
+    "Prankur Tiwari",
+    "Software Devoloper",
+    "Developer"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prankurtiwari/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Prankurtiwari/Portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
